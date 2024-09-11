@@ -39,6 +39,11 @@ header nav ul li a:hover {
 .section-01 {
   padding: 250px;
   background-image: url(imagems/jurisdiction-677940_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -46,10 +51,12 @@ header nav ul li a:hover {
    font-size: 40px;
    font-weight: 400;
    color: #000000;
+   font-weight: 500;
 }
 
 .section-01 span {
     color: darkgoldenrod;
+    font-weight: 600;
 }
 .section-01 p {
     font-size: 18px;
@@ -71,15 +78,17 @@ header nav ul li a:hover {
     color: #000000;
     transition: 0.8s;
     cursor: pointer;
+    font-weight: 600;
 }
 /* Final da primeira section */
 
 .section-02 {
-    padding: 150px;
-    background-color: aliceblue;
+    padding: 200px;
+    background: linear-gradient(180deg, #ced6d6 8.33%, #587f84b1 100%);
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
+    gap: 10px;
     
 }
 
@@ -89,6 +98,7 @@ header nav ul li a:hover {
   border-radius: 20px;
   background-color: #032e5f;
   color: antiquewhite;
+  align-items: center;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -96,9 +106,14 @@ header nav ul li a:hover {
     width: 120px;
     height: 40px;
     border-radius: 20px;
-    justify-items: center;
-    justify-content: center;
+    align-items: center;
 }
+
+.div-01:hover {
+    transform: translate(0px, 20px);
+    transition: 1s;
+}
+
 
 
  .div-02 {
@@ -115,6 +130,7 @@ header nav ul li a:hover {
     width: 120px;
     height: 40px;
     border-radius: 20px;
+    
 }
 .div-02:hover {
     transform: translate(0px, 20px);
@@ -131,3 +147,108 @@ header nav ul li a:hover {
     padding: 20px; 
     margin-bottom: 20px;
 }
+
+.div-03 button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+.div-03:hover {
+    transform: translate(0px, 20px);
+    transition: 1s;
+}
+/* Fim da estilização da section 02 */
+
+/* Trabalhamos na estilização da section 03 */
+
+.section-03  {
+    padding: 150px;
+    background-color: #a0c9d2bb;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-03 .div-1 img {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.section-03 .div-1 img:hover {
+   transform: translate(0px, 20px);
+   transition: 0.8s;
+}
+
+.section-03 .div-2 {
+    padding: 20px;
+}
+
+.section-03 .div-2 h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section-03 .div-2 p {
+    font-weight: 500;
+    font-size: 20px;
+   margin: 20px;
+}
+
+.section-03 .div-2 button {
+ width: 180px;
+height: 50px;
+color: #014ca1; border-radius: 40px;
+font-size: 15px;
+border-color: #014ca1;
+}
+
+.section-03 .div-2 button:hover {
+    background-color: #ca9a49;
+    color: #000000;
+    transition: 0.8s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+footer {
+    padding: 60px;
+    background: linear-gradient(180deg, #e3b288 8.33%, #224a80 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+footer {
+    padding: 30px;
+    background-color: #787069;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  .div-soc i {
+      background-color: #e6e2d9;
+      padding: 10px;
+      font-size: 25px;
+  }
+  
+
+  .div-list-foot nav ul {
+    display: flex;
+  }
+
+  .div-list-foot nav ul li a {
+    margin-right: 20px;
+    justify-items: end;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  .div-list-foot nav ul li a:hover {
+    color: #f3f5f6;
+    transition: 0.8s;
+  }
+  
+  
