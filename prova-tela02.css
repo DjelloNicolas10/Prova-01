@@ -36,24 +36,26 @@ header nav ul li a:hover {
 
 .section01-tela2 {
    padding: 200px;
-   background-image: url(imagems/woman-4702060_1280.jpg);
+   background-image: url(imagems/woman-4702060_1280.jpg); /*Imagem do fundo da minha sessão*/
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
 
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
+  
 }
 
-.tela-02 h2 p {
-    width: 250px;
-  height: 290px;
+.tela-02 p {
+  width: 250px; /*Largura da caixa*/
+  height: 290px; /*Altura da caixa*/
   border-radius: 20px;
-  background-color: #032e5f;
-  color: antiquewhite;
-  align-items: center;
+  background-color: rgb(38, 38, 225);
+  color: white;
   padding: 20px;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
+  margin-top: 10px;
+ 
 }
 
 .tela-02 span {
@@ -65,3 +67,89 @@ header nav ul li a:hover {
     font-size: 20px;
     font-weight: 400;   
 }
+
+.section2-tela-02 {
+    background-color: white;
+    padding: 180px;
+}
+
+.section2-tela-02 .div-filho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.section2-tela-02 .div-filho h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+
+.section2-tela-02 .div-filho span {
+    color: rgb(220, 8, 50);
+}
+
+.section2-tela-02 .div-filha p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section2-tela-02 .div-filha button {
+    width: 180px;
+    height: 50px;
+    color: #014ca1;
+    border-radius: 40px;
+    font-size: 15px;
+    border-color: #014ca1;
+}
+
+.section2-tela-02 .div-filha button:hover {
+    background-color: #ca9a49;
+    color: #000000;
+    transition: 0.8s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+footer {
+    padding: 60px;
+    background: linear-gradient(180deg, #e3b288 8.33%, #224a80 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+footer {
+    padding: 30px;
+    background-color: #787069;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  .div-soc i {
+      background-color: #e6e2d9;
+      padding: 10px;
+      font-size: 25px;
+  }
+  
+
+  .div-list-foot nav ul {
+    display: flex;
+  }
+
+  .div-list-foot nav ul li a {
+    margin-right: 20px;
+    justify-items: end;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  .div-list-foot nav ul li a:hover {
+    color: #f3f5f6;
+    transition: 0.8s;
+  }

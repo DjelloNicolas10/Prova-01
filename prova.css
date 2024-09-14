@@ -1,26 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin: 0; /*Zerando a margin(top, bottom etc.)*/
+    padding: 0; /*Zerando o preenchimento*/
+    list-style: none; /*Decoração do texto desabilitar*/
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Chamamos header para estilizar */
 header {
     padding: 15px;
-    display: flex;
-    justify-content: space-evenly;
+    display: flex;/*tornando a minha sessão flex, deixa os meus conteúdo lado a lado*/
+    justify-content: space-evenly; /*Justificando o conteúdo*/
     align-items: center;
-    background-color: #1693a5;
+    background-color: #1693a5; /*Habilitando uma cor de fundo no meu cabeçalho*/
 }
 
 header img {
-    width: 100px;
-    height: auto;
+    width: 100px; /*Lagura da imagem*/
+    height: auto; /*altura da imagem*/
 }
 
 header nav ul {
-    display: flex;
+    display: flex; /*tornando nossa listas não ordenada flex*/
 }
 
 header nav ul li a {
@@ -30,19 +30,20 @@ header nav ul li a {
     font-size: 18px;
 }
 
+/* Aplicando o hover na listas não ordenada */
 header nav ul li a:hover {
-    color: #d8d8c0;
+    color: #d8d8c0;/*cor da letra*/
     transition: 0.8s;
 }
 
 /* Estilização da primeira section */
 .section-01 {
-  padding: 250px;
+  padding: 250px; /*Preenchimento da minha sessão*/
   background-image: url(imagems/jurisdiction-677940_1280.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
+  background-repeat: no-repeat; /*para imagem não repita*/
+  background-position: center; /*posicionamento da imagem*/
+  background-size: cover; /**/
+  justify-content: center; /*Justificando meus conteúdo*/
   align-items: center;
 }
 
@@ -64,15 +65,17 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+/* Chaamndo o botão da primeira sessão para estilizar */
 .section-01 button {
-    width: 180px;
-    height: 50px;
-    color: #014ca1;
-    border-radius: 40px;
-    font-size: 15px;
+    width: 180px; /*Largura do botaõ*/
+    height: 50px; /*Altura do botão*/
+    color: #014ca1; /*cor de fundo*/
+    border-radius: 40px; /*Arredondamento do botão*/
+    font-size: 15px; 
     border-color: #014ca1;
 }
 
+/* Aplicando hover na minha primeira sessão */
 .section-01 button:hover {
     background-color: #ca9a49;
     color: #000000;
@@ -84,7 +87,7 @@ header nav ul li a:hover {
 
 .section-02 {
     padding: 200px;
-    background: linear-gradient(180deg, #ced6d6 8.33%, #587f84b1 100%);
+    background: linear-gradient(180deg, #f4f7f7 8.33%, #76d6e3b1 100%);
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
@@ -106,7 +109,13 @@ header nav ul li a:hover {
     width: 120px;
     height: 40px;
     border-radius: 20px;
-    align-items: center;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.div-01 button:hover {
+    background-color: rgb(112, 227, 227);
+    font-size: 20px;
+    transition: 0.8s;
 }
 
 .div-01:hover {
@@ -130,8 +139,15 @@ header nav ul li a:hover {
     width: 120px;
     height: 40px;
     border-radius: 20px;
-    
+    margin-left: 50px;
+    margin-top: 10px;
 }
+.div-02 button:hover {
+    background-color: rgb(112, 227, 227);
+    font-size: 20px;
+    transition: 0.8s;
+}
+
 .div-02:hover {
     transform: translate(0px, 20px);
     transition: 1s;
@@ -152,7 +168,16 @@ header nav ul li a:hover {
     width: 120px;
     height: 40px;
     border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
+
+.div-03 button:hover {
+    background-color: rgb(112, 227, 227);
+    font-size: 20px;
+    transition: 0.8s;
+}
+
 .div-03:hover {
     transform: translate(0px, 20px);
     transition: 1s;
